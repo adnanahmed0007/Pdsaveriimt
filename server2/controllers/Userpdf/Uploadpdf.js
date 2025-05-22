@@ -2,9 +2,9 @@ import Signupmakeschema from "../../models/Signup11.js";
 import Uploadpdfuser from "../../models/UserPdupload.js";
 import cloudinary from "cloudinary"
 cloudinary.config({
-    cloud_name: "dc0sgkkcg",       // replace with your Cloudinary credentials
-    api_key: "832181487974153",
-    api_secret: "0X-wPrPbfqfezfs7S3aKx_mGRLk",
+    cloud_name: "",       // replace with your Cloudinary credentials
+    api_key: "",
+    api_secret: "",
     secure: true
 })
 const UploadPdf = async (req, res) => {
